@@ -5,13 +5,13 @@ Photometric data calibration for the SDSS-RM project
 Qian Yang <br>
 Feb 11, 2017
 ----
-Reference
+Reference <br>
 Bok 90Prime image data reduction by Ian McGreer (https://github.com/imcgreer/idmrm). The core ubercal code are learnt from the  IDL Ubercal code (by Finkbeiner, Padmanabhan & Schlegel) and python uberpy by Ian (https://github.com/imcgreer/uberpy).
 ----
 Current version <br>
-Bok data Ubercal calibration
+Bok data Ubercal calibration <br>
 ----
-TODO
+TODO <br>
 Bok data i band data error <br>
 CFHT data <br>
 Spectrophotometry <br>
@@ -22,7 +22,7 @@ Structure function parameters <br>
 Short time PSD <br>
 
 ----
-Main files
+Main files <br>
 get_tref.pro <br>
 ==> sdssrm-bok_tref.fits (use utDate) <br>
 
@@ -61,7 +61,7 @@ get_qso_curves_cor.pro <br>
 ==> lightcurves_bokrm_g_amp_mag_cor.fits <br>
 
 -----
-RM mask record
+RM mask record <br>
 [2, 3, 5, 7, 11, 13, 17, 19, 23, 37, 59, 317, 331] <br>
 flag = 0 ==> mask = 2, throw =1 <br>
 mag>90 ==> mask=3, throw = 1 <br>
@@ -84,5 +84,5 @@ sdss_mag >18 and mask=1 ==> mask = 211 <br>
 k<0 ==> mask = 223 <br>
 clean_frame, offset>0.1 ==> mask = 317, throw = 1 <br>
 -----
-Contract
+Contract <br>
 Any question please feel free to email Qian (qianyang.astro@gmail.com).
